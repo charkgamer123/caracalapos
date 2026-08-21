@@ -229,6 +229,8 @@
   .contact-list div{ display:flex; justify-content:space-between; font-size:0.9rem; color:#31333a; }
   .contact-list .lbl{ color:#8a8d95; }
   .contact-list .val{ font-family:'JetBrains Mono',monospace; font-weight:600; }
+  .phone-boxes{ display:inline-flex; gap:6px; direction:ltr !important; unicode-bidi:isolate; }
+  .phone-boxes span{ display:inline-flex; align-items:center; justify-content:center; min-width:30px; padding:5px 6px; background:var(--cream); border:1.5px solid #e1ddd0; border-radius:6px; font-family:'JetBrains Mono',monospace; font-weight:700; font-size:0.85rem; color:var(--navy); }
 
   footer{ background:var(--navy); color:#8891c7; padding:30px 0; text-align:center; font-size:0.82rem; }
   footer .wrap{ display:flex; flex-direction:column; align-items:center; gap:10px; }
@@ -383,7 +385,7 @@
         <span class="feature-num">03 — CAISSE</span>
         <h3>
           <span class="fr">La journalière de caisse, sans calculette</span>
-          <span class="ar-text">جردة الصندوق اليومية، بلا آلة حاسبة</span>
+          <span class="ar-text">تفقد المبيعات اليومية، بلا آلة حاسبة</span>
         </h3>
         <p>
           <span class="fr">Ventes, charges, versements clients et fournisseurs : tout le mouvement de caisse du jour, sur un seul écran.</span>
@@ -503,6 +505,7 @@
       <div class="receipt-line"></div>
       <div class="contact-list">
         <div><span class="lbl fr">Page Facebook</span><span class="lbl ar-text">صفحة الفيسبوك</span><span class="val"><a href="https://www.facebook.com/share/1945ZTQ2PA/" target="_blank" rel="noopener noreferrer" style="color:inherit;">facebook.com/CaracalaPOS</a></span></div>
+        <div><span class="lbl fr">Téléphone</span><span class="lbl ar-text">رقم الهاتف</span><span class="val"><a href="tel:0659265632" dir="ltr" style="color:inherit; text-decoration:none;"><span class="phone-boxes" dir="ltr"><span>06</span><span>59</span><span>26</span><span>56</span><span>32</span></span></a></span></div>
       </div>
       <a href="https://www.facebook.com/share/1945ZTQ2PA/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="width:100%; justify-content:center; background:var(--navy); color:#fff;">
         <span class="fr">Nous écrire sur Facebook</span>
